@@ -1,0 +1,31 @@
+#canvas
+{
+    background-color: grey;
+    width: 80% ;
+    height:80%;
+    position: relative;
+}
+
+#heatmap-legend {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 15px 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    z-index: 9999;
+}
+
+#heatmap-legend td {
+    padding: 2px 0;
+    vertical-align: middle;
+}
+
+.color-box {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    display: inline-block;
+}
