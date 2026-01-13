@@ -20,6 +20,7 @@ The input data contains:
 
 ### HeatMapV1 - Dot Visualization
 Early prototype that places individual dots at fixation coordinates. Color intensity represents time spent at each location.
+<img width="1920" height="960" alt="image" src="https://github.com/user-attachments/assets/5fe18326-2303-4cb8-b57d-30304f1949f2" />
 
 **Features:**
 - Simple dot-based visualization
@@ -28,6 +29,7 @@ Early prototype that places individual dots at fixation coordinates. Color inten
 
 ### HeatMapV2 - Gradient Visualization
 Enhanced version using gradient transitions for smoother visual representation.
+<img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/a99afb7a-73e4-4083-b359-3903355fe849" />
 
 **Improvements:**
 - Gradient color transitions
@@ -35,7 +37,8 @@ Enhanced version using gradient transitions for smoother visual representation.
 - Improved time-based color mapping
 
 ### HeatMapV3 - True HeatMap (In Progress)
-Advanced implementation generating authentic heatmaps with spatial interpolation.
+Advanced implementation generating authentic heatmaps with spatial interpolation. Using https://github.com/pa7/heatmap.js
+<img width="1437" height="805" alt="image" src="https://github.com/user-attachments/assets/ed7faaee-12a7-4a36-a10a-af8718be2e9b" />
 
 **Features:**
 - True heatmap generation with blur effect
@@ -49,7 +52,7 @@ Advanced implementation generating authentic heatmaps with spatial interpolation
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ## Contributing
 
