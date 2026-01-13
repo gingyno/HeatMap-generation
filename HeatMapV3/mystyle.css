@@ -1,0 +1,25 @@
+#canvas {
+    position:relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background: rgb(79, 25, 150);
+    z-index: 1;
+}
+
+#heatLayer {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    opacity: 0.9;
+    /*background: rgb(199, 68, 68);*/
+}
+
+#canvasDiv {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    background: rgb(194, 185, 185);
+    line-height: 0;
+    z-index: 1;
+}
